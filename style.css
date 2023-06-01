@@ -1,0 +1,50 @@
+h3{
+    color: aquamarine;
+}
+h4{
+    color: pink;
+}
+
+h5, p{
+    color: red;
+}
+/* p{
+    color red;
+} */
+
+ /* DRY */
+ span{
+     color: blueviolet;
+ }
+ p span, p strong{
+    color: yellow;
+ }
+ div{
+    color: rgb(255, 2, 2);
+    background-color: red;
+ }
+.text-block{
+    background-color: orange;
+}
+.text-block h3{
+    color: black;
+}
+.text-block p{ 
+    color: gray;
+}
+li:first-child{
+    background-color: red;
+
+}
+.parent p:first-child{
+     background-color: rgb(rgb(255, 255, 255), green, blue);
+}
+.parent p:first-child{
+    background-color: gold;
+}
+.parent p:first-child(4){
+     background-color: darkcyan;
+}
+.parent p:first-child(2){
+      background-color: azure;
+}
